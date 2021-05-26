@@ -25,6 +25,10 @@ body {
   text-align: center;
 }
 
+img {
+  height: 45px;
+}
+
 .form i {
   z-index: 1;
   color: white;

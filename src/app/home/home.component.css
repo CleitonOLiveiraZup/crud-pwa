@@ -17,20 +17,21 @@ nav {
     #fb5c00 48.55%,
     #ff8800 106.19%
   );
-  height: 50px;
+  height: 72px;
   width: 100%;
 }
 img {
-  height: 50px;
-  color: white;
+  height: 30px;
+  left: 16px;
+  margin-top: 18px;
 }
 label.logo {
   color: white;
-  height: 10px;
-  line-height: 50px;
-  padding: 0 100px;
+
+  padding: 0px 100px;
 }
 nav ul {
+  margin-top: 10px;
   float: right;
   margin-right: 80px;
 }
@@ -41,7 +42,8 @@ nav ul li {
 }
 nav ul li a {
   color: white;
-  font-size: 17px;
+  font-weight: bold;
+  font-size: 18px;
   padding: 7px 13px;
   border-radius: 3px;
 }
