@@ -1,0 +1,135 @@
+{
+  "configVersion": 1,
+  "timestamp": 1622049062701,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2017.3576bdb7f5bfb434b72e.js",
+        "/main-es5.3576bdb7f5bfb434b72e.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2017.e7190528f5ea88ee3349.js",
+        "/polyfills-es5.6265cb7cd1e993e673fe.js",
+        "/runtime-es2017.636ac85366b8281fb22c.js",
+        "/runtime-es5.636ac85366b8281fb22c.js",
+        "/styles.67f0a2a8098fcec2f2ae.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/android-144x144.png",
+        "/assets/icons/android-192x192.png",
+        "/assets/icons/android-36x36.png",
+        "/assets/icons/android-48x48.png",
+        "/assets/icons/android-72x72.png",
+        "/assets/icons/android-96x96.png",
+        "/assets/icons/apple-touch-icon-180x180.png",
+        "/assets/icons/favicon-16x16.png",
+        "/assets/icons/favicon-32x32.png",
+        "/assets/icons/favicon.ico",
+        "/assets/icons/pwa-192x192.png",
+        "/assets/icons/pwa-512x512.png",
+        "/assets/icons/tile150x150.png",
+        "/assets/icons/tile310x150.png",
+        "/assets/icons/tile310x310.png",
+        "/assets/icons/tile70x70.png",
+        "/assets/lighty.svg",
+        "/assets/splashscreens/ipad_splash.png",
+        "/assets/splashscreens/ipadpro1_splash.png",
+        "/assets/splashscreens/ipadpro2_splash.png",
+        "/assets/splashscreens/ipadpro3_splash.png",
+        "/assets/splashscreens/iphone5_splash.png",
+        "/assets/splashscreens/iphone6_splash.png",
+        "/assets/splashscreens/iphoneplus_splash.png",
+        "/assets/splashscreens/iphonex_splash.png",
+        "/assets/splashscreens/iphonexr_splash.png",
+        "/assets/splashscreens/iphonexsmax_splash.png",
+        "/assets/success_trato (cópia).json",
+        "/assets/success_trato.json",
+        "/assets/three-dots.svg",
+        "/assets/track (cópia).svg",
+        "/assets/track.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/android-144x144.png": "feea989eccfc046fae80ce04e08d7f33095f574c",
+    "/assets/icons/android-192x192.png": "8209e64e7e282232d0a9efd7c0f23d54269ae786",
+    "/assets/icons/android-36x36.png": "71aff7e74a8420169c3a4201d3d78508f00a9061",
+    "/assets/icons/android-48x48.png": "015a98cd7c207846e195985589497081ce19a5f0",
+    "/assets/icons/android-72x72.png": "7ac3c6a19c245cba6b442c0fad1081e2946c44f0",
+    "/assets/icons/android-96x96.png": "97a7d46955e7a2d100fa3b8bc66fc582d8ea00d5",
+    "/assets/icons/apple-touch-icon-180x180.png": "1e863300a4e0f00022cdda5f7843fcaeee902b80",
+    "/assets/icons/favicon-16x16.png": "f7053198e74130345214d9d17464c8b41212dbee",
+    "/assets/icons/favicon-32x32.png": "04d2d1e3c81bba131d263e18d5d2269e1673fc9f",
+    "/assets/icons/favicon.ico": "cc7a686f714056bac3a40ab7b2e9de219c9dfbe2",
+    "/assets/icons/pwa-192x192.png": "8209e64e7e282232d0a9efd7c0f23d54269ae786",
+    "/assets/icons/pwa-512x512.png": "2c9452aac712b9a0c2b399c36ba3f541c2e2c0db",
+    "/assets/icons/tile150x150.png": "26a3db7644f81ebdbcdab9855532fd2badd5547d",
+    "/assets/icons/tile310x150.png": "d7116acf40c26d208a6e2a2f6914d940bbfa5d62",
+    "/assets/icons/tile310x310.png": "1c8eaf942205eb091f1a08124adadcb1caba310a",
+    "/assets/icons/tile70x70.png": "62916544e4f0bc19afc6ad6b9934d7396ce38716",
+    "/assets/lighty.svg": "9dde09b758705f4d6a707b63feefab2b69da1fb0",
+    "/assets/splashscreens/ipad_splash.png": "8d438edc979b04443ad4f6c6a0eab2e7c8520592",
+    "/assets/splashscreens/ipadpro1_splash.png": "cb3a9ca8b2af61c4a2ded3dffc33209d38091e48",
+    "/assets/splashscreens/ipadpro2_splash.png": "565230a1c0a253a2f683c079107fa1af33debf43",
+    "/assets/splashscreens/ipadpro3_splash.png": "7e6388778152b18fc7875a2e299faa5d5fd50c69",
+    "/assets/splashscreens/iphone5_splash.png": "7f9bf890ace15a70a0524bdded762c15b660a6f5",
+    "/assets/splashscreens/iphone6_splash.png": "bda82a280c0779171fb73b8deb400d4276a7a71e",
+    "/assets/splashscreens/iphoneplus_splash.png": "fbb0bfdbf44732e59044208ee9206afb643b90c3",
+    "/assets/splashscreens/iphonex_splash.png": "9012d1afcbbcf8c0a0bc16126a2b5e4d0ad09ffc",
+    "/assets/splashscreens/iphonexr_splash.png": "28a2cc7c3f845ba75f489a83cbf763c2d8663e23",
+    "/assets/splashscreens/iphonexsmax_splash.png": "61583fc0761f2f079e716770733b551b190cf951",
+    "/assets/success_trato (cópia).json": "2c36cf4b8bdbffc9bacfe5445ca029ec05ad7355",
+    "/assets/success_trato.json": "2c36cf4b8bdbffc9bacfe5445ca029ec05ad7355",
+    "/assets/three-dots.svg": "b638e975a151ce064cd63d5e155228a280ca6f84",
+    "/assets/track (cópia).svg": "235ffc8c2f8f28db2d8afb3cc4749f6757630ff8",
+    "/assets/track.svg": "235ffc8c2f8f28db2d8afb3cc4749f6757630ff8",
+    "/favicon.ico": "cc7a686f714056bac3a40ab7b2e9de219c9dfbe2",
+    "/index.html": "df8dfe46fc94f349725af2b810d6f9a42070f061",
+    "/main-es2017.3576bdb7f5bfb434b72e.js": "340a418821a9592296272637a978509d51455839",
+    "/main-es5.3576bdb7f5bfb434b72e.js": "d45aad34e1c8bb4d80adc6aee58a5453e245f60a",
+    "/manifest.webmanifest": "88b565f679818f6335d6c3d8ab42d1e30aef498c",
+    "/polyfills-es2017.e7190528f5ea88ee3349.js": "c11af1d9be27d50edd65ab3f7c03d144c2fb8b3b",
+    "/polyfills-es5.6265cb7cd1e993e673fe.js": "505201dfb16375c2dc9df01542337a997bbbb7c2",
+    "/runtime-es2017.636ac85366b8281fb22c.js": "142669345dc547c8f3ea290e80a3a478498012fc",
+    "/runtime-es5.636ac85366b8281fb22c.js": "142669345dc547c8f3ea290e80a3a478498012fc",
+    "/styles.67f0a2a8098fcec2f2ae.css": "1edfaaf608b96b7c08237d6f90a7ff3070328242"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
