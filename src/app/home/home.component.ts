@@ -10,7 +10,6 @@ import { AuthService } from '../components/acesso/service/auth.service';
 export class HomeComponent implements OnInit {
   faBars = faBars;
   mostrarMenu: boolean = false;
- 
   constructor(private authService: AuthService) { }
 
   ngOnInit(): void {
