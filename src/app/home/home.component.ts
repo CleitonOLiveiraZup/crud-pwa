@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { AuthService } from '../components/acesso/service/auth.service';
+import { faTruckMoving } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',

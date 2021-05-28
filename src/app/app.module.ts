@@ -15,6 +15,7 @@ import { LoginComponent } from './components/acesso/login/login.component';
 import { AuthService } from './components/acesso/service/auth.service';
 import { AuthGuard } from './components/acesso/guards/auth.guard';
 import {  HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
+import { CamComponent } from './components/cam/cam.component';
 
 export function playerFactory() {
   return player;
@@ -25,7 +26,8 @@ export function playerFactory() {
     AppComponent,
     HomeComponent,
     SplashScreenComponent,
-    LoginComponent
+    LoginComponent,
+    CamComponent
   ],
   imports: [
     FontAwesomeModule,
