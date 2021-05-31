@@ -18,8 +18,5 @@ export class HomeComponent implements OnInit {
       mostrar => this.mostrarMenu = mostrar
     );
   }
-  public getCapture(event:any) {
-    console.log(event);
-  }
 
 }

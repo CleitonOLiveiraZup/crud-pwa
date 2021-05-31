@@ -1,50 +1,18 @@
-.camera-capture {
-  background-color: #eee;
-  height: 450px;
-  position: relative;
-  overflow: hidden;
-  margin: 45px 0;
+body {
+  background-color: #f0f0f0;
 }
-.camera-capture canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  width: 40%;
-  height: 40%;
-  z-index: 2;
-}
-.camera-capture video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  width: 40%;
-  height: 40%;
-  z-index: 1;
-}
-.camera-capture .g-svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  z-index: 0;
-}
-.camera-capture .g-svg i {
-  background-size: contain;
-  width: 300px;
-}
-.camera-capture .g-button {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 60px;
-  z-index: 3;
-}
-.g-image {
+#app {
   text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
-.mobile-capture {
+#video {
+  background-color: #000000;
+}
+#canvas {
   display: none;
+}
+li {
+  display: inline;
+  padding: 5px;
 }
