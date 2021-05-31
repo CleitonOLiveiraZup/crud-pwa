@@ -1,25 +1,47 @@
+.btn {
+  outline: none;
+  border: none;
+  width: 360px;
+  height: 55px;
+  background: #fb5c00;
+  color: white;
+  margin-left: 450px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.5s;
+  transition-property: border-lef, box-shadow, box-shadow;
+}
+.btn:hover {
+  border-left: solid 8px rgba(255, 255, 255, 0.5);
+  border-right: solid 8px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 100px rgba(232, 232, 232, 0.8);
+}
 .camera-capture {
+  top: 0;
+  margin: 0;
+  margin-left: 200px;
   background-color: #eee;
-  height: 450px;
+  height: 250px;
+  width: 70%;
+  align-items: center;
   position: relative;
   overflow: hidden;
-  margin: 45px 0;
 }
 .camera-capture canvas {
-  position: absolute;
   top: 0;
-  left: 0;
+  align-items: center;
   object-fit: cover;
-  width: 40%;
+  width: 100%;
   height: 100%;
   z-index: 2;
 }
 .camera-capture video {
-  position: absolute;
   top: 0;
-  left: 0;
+  align-items: center;
   object-fit: cover;
-  width: 40%;
+  width: 100%;
   height: 100%;
   z-index: 1;
 }
@@ -27,7 +49,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 300px;
   z-index: 0;
 }
@@ -36,15 +57,24 @@
   width: 300px;
 }
 .camera-capture .g-button {
-  position: absolute;
-  left: 50%;
+  align-items: center;
+  top: 300px;
   transform: translateX(-50%);
   bottom: 60px;
   z-index: 3;
 }
-.g-image {
-  text-align: center;
-}
 .mobile-capture {
   display: none;
+}
+@media screen and (max-width: 1200px) {
+  .btn {
+    width: 100%;
+    margin-left: 0px;
+    display: inline;
+  }
+  .camera-capture {
+    width: 100%;
+    margin-left: 0px;
+    display: inline;
+  }
 }

@@ -60,6 +60,10 @@ a:hover {
   cursor: pointer;
   display: none;
 }
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
 #check {
   display: none;
 }
