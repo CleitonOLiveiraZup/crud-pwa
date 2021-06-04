@@ -1,7 +1,5 @@
-<div class="container" style="width: 100%; max-width: 600px; margin: 0 auto;">
-  <h1>NGX scanner demo</h1>
+<div class="container" style="width: 95%; max-width: 600px; margin: 30px auto;">
   <zxing-scanner (scanSuccess)="scanSuccessHandler($event)" [formats]="allowedFormats"></zxing-scanner>
-  <h2>Results found</h2>
   <div *ngFor="let result of results">
     <p>{{ result }}</p>
   </div>
