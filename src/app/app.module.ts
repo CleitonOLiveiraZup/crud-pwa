@@ -16,7 +16,7 @@ import { AuthService } from './components/acesso/service/auth.service';
 import { AuthGuard } from './components/acesso/guards/auth.guard';
 import {  HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { CamComponent } from './components/cam/cam.component';
-
+import { ZXingScannerModule } from '@zxing/ngx-scanner';
 export function playerFactory() {
   return player;
 }
@@ -38,6 +38,7 @@ export function playerFactory() {
     AppRoutingModule,
     HttpClientModule,
     HttpClientJsonpModule,
+    ZXingScannerModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the app is stable

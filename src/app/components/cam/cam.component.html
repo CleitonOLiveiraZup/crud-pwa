@@ -1,11 +1,8 @@
-<div class="camera-capture">
-  <canvas #canvas id="canvas" width="640" height="480"></canvas>
-
-  <div class="mobile-capture">
-    <input #mobileInput type="file" accept="image/*" id="capture" capture="camera" (change)="onFileSelected($event)" />
+<div class="container" style="width: 100%; max-width: 600px; margin: 0 auto;">
+  <h1>NGX scanner demo</h1>
+  <zxing-scanner (scanSuccess)="scanSuccessHandler($event)" [formats]="allowedFormats"></zxing-scanner>
+  <h2>Results found</h2>
+  <div *ngFor="let result of results">
+    <p>{{ result }}</p>
   </div>
-</div>
-<div class="g-button">
-
-  <button class="btn" (click)="mobileInput.click()">Validar Cupum</button>
 </div>
