@@ -2,5 +2,8 @@
   <zxing-scanner (scanSuccess)="scanSuccessHandler($event)" [formats]="allowedFormats"></zxing-scanner>
   <div *ngFor="let result of results">
     <p>{{ result }}</p>
+    <p>Data: {{chave.mes}}/{{chave.ano}} </p>
+    <p>Data: {{chave.cnpj}} </p>
+    <p>Data: {{chave.uf}} </p>
   </div>
 </div>
