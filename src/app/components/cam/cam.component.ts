@@ -41,7 +41,7 @@ export class CamComponent  {
     this.results.unshift(event);
   }
   result(){
-    alert(this.result.toString().substring(0,2))
+    uf : this.result.toString().substring(0,2)
   }
   
 
