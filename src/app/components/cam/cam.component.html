@@ -1,10 +1,7 @@
 <div class="container" style="width: 75%;  max-width: 600px; margin: 30px auto;">
   <zxing-scanner (scanSuccess)="scanSuccessHandler($event)" [formats]="allowedFormats"></zxing-scanner>
   <div *ngFor="let result of results">
-    <p>{{ result }}</p>
-    <p>Data: {{chave.result.mes}}/{{chave.result.ano}} </p>
-    <p>Data: {{chave.result.cnpj}} </p>
-    <p>Data: {{chave.result.uf}} </p>
-    <p>Data: {{chave.result.uf}} </p>
+    <p result="ngModel">{{ result }}</p>
+
   </div>
 </div>
