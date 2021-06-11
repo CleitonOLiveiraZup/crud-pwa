@@ -1,7 +1,7 @@
 <div class="container" style="width: 75%;  max-width: 600px; margin: 30px auto;">
   <zxing-scanner (scanSuccess)="scanSuccessHandler($event)" [formats]="allowedFormats"></zxing-scanner>
   <div *ngFor="let result of results">
-    <p result="ngModel">{{ result}}</p><br>
-    <p>OK:{{resulta}}</p><br>
+    <p result="ngModel">{{ result}}[0:4]: '{{result | slice:0:2}}'</p><br>
+
   </div>
 </div>
