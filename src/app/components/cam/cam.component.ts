@@ -34,19 +34,22 @@ export class CamComponent  {
     BarcodeFormat.UPC_E,
     BarcodeFormat.UPC_EAN_EXTENSION
   ]
+ 
 
   scanSuccessHandler(event: any) {
     console.log(event);
     this.results.unshift(event);
+
+    const chave = {
+      uf :  this.results.unshift().toString().substring(0,2),
+      ano : this.results.toString().substring(2,4),
+      mes : this.results.toString().substring(4,6),
+      cnpj : this.results.toString().substring(6,20),
+    } 
     
   }
 
-chave:any = {
-  uf :  this.results.unshift().toString().substring(0,2),
-  ano : this.results.toString().substring(2,4),
-  mes : this.results.toString().substring(4,6),
-  cnpj : this.results.toString().substring(6,20),
-} 
+
 
   
 }
