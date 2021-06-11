@@ -40,7 +40,7 @@ export class CamComponent  {
     console.log(event);
     this.results.unshift(event);
   }
- resulta = this.results  ;
+ resulta = this.results.substring(0,2)  ;
 
  
 
